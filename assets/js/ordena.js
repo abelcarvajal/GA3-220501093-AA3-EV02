@@ -24,10 +24,8 @@ function capturarVectorA() {
         let valor = obtenerValorA()
         if(i == 0 || valor >= vectorA[i - 1]){
             vectorA.push(valor)
-            alert(`Valor agregado valor: ${valor}, posición: ${i}`)
             borrar()
             i++
-            alert(`Valor de i icrementado ${i}`)
             console.log(vectorA)
         } else {
             alert('El valor ingresado debe ser mayor al anterior')
@@ -49,10 +47,8 @@ function capturarVectorB() {
         let valor = obtenerValorB()
         if(j == 0 || valor >= vectorB[j - 1]){
             vectorB.push(valor)
-            alert(`Valor agregado valor: ${valor}, posición: ${j}`)
             borrar()
             j++
-            alert(`Valor de j icrementado ${j}`)
             console.log(vectorB)
         } else {
             alert('El valor ingresado debe ser mayor al anterior')

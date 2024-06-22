@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rating</title>
     <link href="assets/css/reset.css" rel="stylesheet" type="text/css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -15,7 +15,6 @@
 
 <body>
     <div class="container mt-5">
-
         <div class="container text-center">
             <h1>GA3-220501093-AA3-EV02</h1>
         </div>
@@ -24,42 +23,38 @@
                 Resolución a problemas algorítmicos
                 <small class="text-body-secondary">aplicando estructuras de almacenamiento</small>
             </h3>
-            <h4 class="h4 mt-4">
-                4. Rating canciones
-            </h4>
+            <h4 class="h4 mt-4">4. Rating canciones</h4>
             <div class="d-grid gap-2 col-6 mx-auto mt-3">
-                <a href="index.html">
-                <button class="btn btn-secondary" type="button">Inicio</button>
+                <a href="../index.html">
+                    <button class="btn btn-secondary" type="button">Inicio</button>
                 </a>
-              </div>
+            </div>
         </div>
         <hr />
 
         <div class="container mt-5">
             <div class="d-grid gap-2 col-3 mx-auto">
-                
-                    <button onclick="mostrarFormulario(event)" type="button" class="btn btn-secondary">Agregar Encuestado</button>
-               
-                
-                    <button onclick="mostrarPersonas(event)" type="button" class="btn btn-secondary">Ver Encuestas</button>
-                
+                <button onclick="mostrarFormulario(event)" type="button" class="btn btn-secondary">
+                    Agregar Encuestado
+                </button>
+
+                <button onclick="mostrarPersonas(event)" type="button" class="btn btn-secondary">
+                    Ver Encuestas
+                </button>
             </div>
         </div>
 
         <!-- ********************** INICIO FORMULARIO ***************************-->
 
-        <div class="container mt-5 text-bg-light" id="captura-datos">
-            
-        </div>
+        <div class="container mt-5 text-bg-light" id="captura-datos"></div>
 
         <!-- *********************** FIN FORMULARIO **************************-->
 
         <!-- ******************** MOSTRAR INFO PERSONAS ************************-->
         <div class="container-fluid mt-5" id="personas"></div>
-
     </div>
 
-    <script src="assets/js/rating.js"></script>
+    <script src="../assets/js/rating.js"></script>
 </body>
 
 </html>

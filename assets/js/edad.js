@@ -14,6 +14,15 @@ function borrar() {
     document.getElementById('edad').value = ''
 }
 
+function reset(){
+    document.getElementById("menores").textContent = '***'
+    document.getElementById("mayores").textContent  = '***'
+    document.getElementById("adulto-mayor").textContent  = '***'
+    document.getElementById("edad-menor").textContent  = '***'
+    document.getElementById("edad-mayor").textContent  = '***'
+    document.getElementById("prom").textContent  = '***'
+}
+
 edad = []
 
 function agregarEdad() {
